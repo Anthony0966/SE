@@ -8,8 +8,8 @@
 
 아래 링크를 통해 각 문서로 이동 가능함. 문서가 추가될때마다 업데이트 예정.
 
-* [01. System Definition (프로젝트 정의서)](./01_sys_def.md)
+* 프로젝트1. [ System Definition (프로젝트 정의서)](./01_sys_def.md)
   
-* [02. System Quality Attributes (대상 시스템 품질 요소)](./02_sys_quality.md)
+* 프로젝트2. [ System Quality Attributes (대상 시스템 품질 요소)](./02_sys_quality.md)
   
 ---
