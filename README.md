@@ -11,5 +11,7 @@
 * 프로젝트1. [ System Definition (프로젝트 정의서)](https://github.com/Anthony0966/SE/blob/main/sys_def)
   
 * 프로젝트2. [ System Quality Attributes (대상 시스템 품질 요소)](https://github.com/Anthony0966/SE/blob/main/sys_quality)
+
+* Jira 프로젝트 관리 : [ Midterm Exam planning (중간고사 계획 설정)](https://gunil0320.atlassian.net/jira/core/projects/SE/board?filter=&groupBy=status&atlOrigin=eyJpIjoiNTU3NGQwNDVhNmVlNGFjMTg0MmI2MTM1ZTBkN2EzOGEiLCJwIjoiaiJ9)
   
 ---
