@@ -65,25 +65,25 @@ graph TD
 
 ### 2.3 개발 내용
 - 요구분석
-  - Functional Requirements : 파일 업로드/다운로드, 폴더 관리, 공유 링크 생성, 버전 관리 시스템(Version Control System) 등의 핵심 기능 명세화
-  - Non-functional Requrements : 200명 동시 접속 시의 Throughput (처리량) 확보 방안 및 AES-256 (고급 암호화 표준) 기반의 데이터 전송 보안 규격 수립
+  - Functional Requirements : 파일 업로드/다운로드, 폴더 관리, 공유 링크 생성, Version Control System 등의 핵심 기능 명세화
+  - Non-functional Requrements : 200명 동시 접속 시의 Throughput 확보 방안 및 AES-256 기반의 데이터 전송 보안 규격 수립
 - 시스템 설계
   - Architecture Design : 경량화된 웹 서버와 파일 스토리지 엔진 간의 계층 구조 설계
-  - Database Design : 파일의 위치, 소유권, 권한 정보를 담는 RDBMS (관계형 데이터베이스) 스키마 설계 및 대용량 조회를 위한 인덱스 최적화
+  - Database Design : 파일의 위치, 소유권, 권한 정보를 담는 RDBMS (관계형 데이터베이스임) 스키마 설계 및 대용량 조회를 위한 인덱스 최적화
   - API Specification : 프론트엔드와 백엔드 간의 통신을 위한 RESTful API 인터페이스 정의
 - 시스템 구현
-  - Backend : Chunked Upload 로직 구현을 통해 대용량 파일 전송의 안정성을 확보하고, 파일 수정 시 Differential Storage (차분 저장) 방식을 고려한 버전 관리 엔진 개발
+  - Backend : Chunked Upload 로직 구현을 통해 대용량 파일 전송의 안정성을 확보하고, 파일 수정 시 Differential Storage  방식을 고려한 버전 관리 엔진 개발
   - Frontend : SPA(single page application)구조를 채택해서 사용자 경험(UX)를 개선하고 별도 설치 없이 브라우저에서 동작하는 파일 탐색기 UI 구현
 - 테스트
-  - Stress Test : 가상 유저 200명을 생성하여 동시 I/O 발생 시의 Latency (지연 시간) 및 서버 가용성 검증
-  - Security Audit : 암호화 전송 구간의 패킷 도청 방지 및 미인가 사용자의 접근 차단 테스트
+  - Stress Test : 가상 유저 200명을 생성하여 동시 I/O 발생 시의 레이턴시 및 서버 가용성 검증
+  - Security Audit : 암호화 전송 구간의 패킷 도청 방지 및 인가받지 않은 사용자의 접근 차단 테스트
 
 ### 2.4 개발 일정
 폭포수 모델의 특성에 따라 이전 단계에서 산출물이 산출된 후에 다음 단계로 들어가는것을 원칙으로 한다.
 
 | 단계 | 주요 작업 내용 | 기간 | 산출물 |
 | :--- | :--- | :--- | :--- |
-| **요구분석** | 요구사항 도출 및 **Specification (명세화)** | 0.5주 | 요구사항 정의서 |
+| **요구분석** | 요구사항 도출 및 **Specification** | 0.5주 | 요구사항 정의서 |
 | **시스템 설계** | 아키텍처 설계 및 DB 스키마 정의 | 1주 | 시스템 설계서 |
 | **시스템 구현** | 백엔드 엔진 및 프론트엔드 UI 개발 | 1.5주 | 구현 코드 |
 | **테스트 및 검증** | 단위/통합 테스트 및 결함 수정 | 1.5주 | 테스트 결과 보고서 |
