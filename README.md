@@ -8,7 +8,7 @@
 
 아래 링크를 통해 각 문서로 이동 가능함. 문서가 추가될때마다 업데이트 예정.
 
-* 프로젝트1. [ System Definition (프로젝트 정의서)](https://github.com/Anthony0966/SE/blob/main/sys_def)
+* 프로젝트1. [ System Definition (프로젝트 정의서)](https://github.com/Anthony0966/SE/blob/main/doc/sys_def.md)
   
 * 프로젝트2. [ System Quality Attributes (대상 시스템 품질 요소)](https://github.com/Anthony0966/SE/blob/main/sys_quality)
 
