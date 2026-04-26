@@ -91,7 +91,7 @@ graph TD
 
 ```mermaid
 gantt
-    title Mini Drive Compressed Schedule (Ending June 9)
+    title Mini Drive Schedule 간트차트
     dateFormat  YYYY-MM-DD
     axisFormat  %m/%d
     
