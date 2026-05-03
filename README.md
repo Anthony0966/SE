@@ -15,5 +15,6 @@
 * Jira 프로젝트 관리 : [ Midterm Exam planning (중간고사 계획 설정)](https://gunil0320.atlassian.net/jira/core/projects/SE/board?filter=&groupBy=status&atlOrigin=eyJpIjoiNTU3NGQwNDVhNmVlNGFjMTg0MmI2MTM1ZTBkN2EzOGEiLCJwIjoiaiJ9)
 
 * 프로젝트3. [Project Management Plan (프로젝트 관리 계획서)](https://github.com/Anthony0966/SE/blob/main/doc/pmp.md)
-  
+
+* 프로젝트4. [REquirement Specification (프로젝트 요구사항 정의서)](https://github.com/Anthony0966/SE/blob/main/doc/req_spe.md)
 ---
