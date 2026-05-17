@@ -17,4 +17,6 @@
 * 프로젝트3. [Project Management Plan (프로젝트 관리 계획서)](https://github.com/Anthony0966/SE/blob/main/doc/pmp.md)
 
 * 프로젝트4. [REquirement Specification (프로젝트 요구사항 정의서)](https://github.com/Anthony0966/SE/blob/main/doc/req_spe.md)
+
+* 프로젝트5. [Requirements Analysis Document(프로젝트 요구사항 분석서)](https://github.com/Anthony0966/SE/blob/main/doc/rad.md)
 ---
